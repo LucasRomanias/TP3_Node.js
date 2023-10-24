@@ -1,13 +1,27 @@
 {
-  "name": "api-server-beta-1.92-main",
+  "name": "serveur-minimale",
+  "type": "module",
+  "engines": {
+    "node": "16.14.2"
+  },
   "version": "1.0.0",
+  "description": "Serveur http minimal",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "author": "",
+  "author": "Nicolas Chourot",
   "license": "ISC",
+  "dependencies": {
+    "date-and-time": "^2.4.1",
+    "properties-reader": "^2.1.1",
+    "query-string": "^8.1.0",
+    "uuid": "^8.3.2"
+  },
+
+
+
   "repository": {
     "type": "git",
     "url": "git+https://github.com/LucasRomanias/TP3_Node.js.git"
@@ -15,13 +29,7 @@
   "bugs": {
     "url": "https://github.com/LucasRomanias/TP3_Node.js/issues"
   },
-  "homepage": "https://github.com/LucasRomanias/TP3_Node.js#readme",
-  "description": "",
-  
-  "dependencies": {
-    "date-and-time": "^2.4.1",
-    "properties-reader": "^2.1.1",
-    "query-string": "^8.1.0",
-    "uuid": "^8.3.2"
-  }
+  "homepage": "https://github.com/LucasRomanias/TP3_Node.js#readme"
+
+
 }
