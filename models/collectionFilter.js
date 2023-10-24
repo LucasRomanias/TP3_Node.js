@@ -1,6 +1,6 @@
 import Model from './model.js';
 
-export default class CollectionFilter extends Model {
+export default class CollectionFilter{
 
     constructor(){
 
