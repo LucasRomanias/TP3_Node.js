@@ -16,5 +16,12 @@
     "url": "https://github.com/LucasRomanias/TP3_Node.js/issues"
   },
   "homepage": "https://github.com/LucasRomanias/TP3_Node.js#readme",
-  "description": ""
+  "description": "",
+  
+  "dependencies": {
+    "date-and-time": "^2.4.1",
+    "properties-reader": "^2.1.1",
+    "query-string": "^8.1.0",
+    "uuid": "^8.3.2"
+  }
 }
